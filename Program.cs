@@ -22,7 +22,7 @@ namespace project_6
             int size = 15;
             int x = 10;
             int y = 10;
-
+            num = SwitchSide(num);
             while (num > 0)
             {
                 
@@ -42,7 +42,7 @@ namespace project_6
                 
                 num = num / 10;
 
-                Console.ReadLine();
+                
             }
 
 
